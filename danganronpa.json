@@ -1,0 +1,17 @@
+{
+  "id": "danganronpa",
+  "name": "Danganronpa",
+  "author": [
+    "Georgian"
+  ],
+  "description": "A mod that introduces danganronpa charachters as balatro jokers, this is my first time making one and I also cannot playtest it so thank you if you can try the mod out ! Expect a lot of \"Gros Michel & Cavendish\" types of jokers, although the mod isn't that well balanced.",
+  "prefix": "danganro",
+  "main_file": "main.lua",
+  "version": "1.0.0",
+  "priority": 0,
+  "badge_colour": "000000",
+  "badge_text_colour": "FFFFFF",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-0827c)"
+  ]
+}
