@@ -54,6 +54,17 @@ if true then
     assert(SMODS.load_file("jokers/mondoowada.lua"))()
     assert(SMODS.load_file("jokers/leonkuwata.lua"))()
     assert(SMODS.load_file("jokers/kyokokirigiri.lua"))()
+    assert(SMODS.load_file("jokers/sakuraogami.lua"))()
+    assert(SMODS.load_file("jokers/sayakamaizono.lua"))()
+    assert(SMODS.load_file("jokers/tokofukawa.lua"))()
+    assert(SMODS.load_file("jokers/genocidejack.lua"))()
+    assert(SMODS.load_file("jokers/yasuhirohagakure.lua"))()
+    assert(SMODS.load_file("jokers/champ.lua"))()
+    assert(SMODS.load_file("jokers/sand.lua"))()
+    assert(SMODS.load_file("jokers/jump.lua"))()
+    assert(SMODS.load_file("jokers/magaz.lua"))()
+    assert(SMODS.load_file("jokers/gundhamtanaka.lua"))()
+    assert(SMODS.load_file("jokers/makotonaegi.lua"))()
 end
 function SMODS.current_mod.reset_game_globals(run_start)
     local jokerPool = {}
@@ -99,6 +110,29 @@ SMODS.ObjectType({
         ["j_danganro_mondoowada"] = true,
         ["j_danganro_leonkuwata"] = true,
         ["j_danganro_kyokokirigiri"] = true
+    },
+})
+
+SMODS.ObjectType({
+    key = "danganro_danganro_jokers",
+    cards = {
+        ["j_danganro_sakuraogami"] = true,
+        ["j_danganro_sayakamaizono"] = true,
+        ["j_danganro_tokofukawa"] = true,
+        ["j_danganro_genocidejack"] = true,
+        ["j_danganro_yasuhirohagakure"] = true,
+        ["j_danganro_gundhamtanaka"] = true,
+        ["j_danganro_makotonaegi"] = true
+    },
+})
+
+SMODS.ObjectType({
+    key = "danganro_Hamster",
+    cards = {
+        ["j_danganro_champ"] = true,
+        ["j_danganro_sand"] = true,
+        ["j_danganro_jump"] = true,
+        ["j_danganro_magaz"] = true
     },
 })
 
